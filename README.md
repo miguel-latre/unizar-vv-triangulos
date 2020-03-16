@@ -24,9 +24,9 @@ tipo del triángulo a través de un valor de la enumeración
 ### Tareas
 
  1. Descargad el proyecto de Moodle o clonadlo desde GitHub.
- 1. Abridlo desde IntelliJ o Android Studio (a través del menú `Open`, no desde el de `Import project`).
- 2. Observad la estructura del proyecto y, en particular, las clases `Triangulo`,`TipoTriangulo` y sus métodos.
- 3. Para que los tests que escribamos con JUnit no se mezclen con el código fuente del proyecto,
+ 2. Abridlo desde IntelliJ o Android Studio (a través del menú `Open`, no desde el de `Import project`).
+ 3. Observad la estructura del proyecto y, en particular, las clases `Triangulo`,`TipoTriangulo` y sus métodos.
+ 4. Para que los tests que escribamos con JUnit no se mezclen con el código fuente del proyecto,
     cread un nuevo directorio de código fuente denominado `test` y ubicado en el directorio `src`.
     Puede hacerse directamente desde IntelliJ o Android Studio a través del menú contextual (botón derecho) del
     directorio `src`.
@@ -35,4 +35,6 @@ tipo del triángulo a través de un valor de la enumeración
     hacia el final del menú) y después `Test sources root`. El color del directorio tiene que cambiar a verde.
  7. Os ha tenido que quedar una estructura como esta:
  
+    ![Estructura del proyecto](docs/project-structure.png)
  
+ 8. Cread un primer test. Para ello,  
