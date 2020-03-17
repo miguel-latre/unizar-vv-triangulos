@@ -71,7 +71,7 @@ tipo del triángulo a través de un valor de la enumeración
 12. El test no pasará, puesto que de la clase `Triangulo` solo os he proporcionado el esqueleto.
 
 13. Escribe el código mínimo imprescindible en la clase `Triangulo` para que el test pase, siguiendo las explicaciones
-    dadas en clase.
+    dadas en clase sobre TDD.
 
 14. Ve repitiendo este proceso de forma incremental con el resto de los casos de prueba de la tabla de la
     transparencia 40:
