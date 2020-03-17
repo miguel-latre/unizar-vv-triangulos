@@ -9,6 +9,13 @@ Basado en Myers, G. J.; Badgett, T.; Sandler, C. (2011).
 _The Art of Software Testing_, 3rd Edition. John Wiley and Sons Ltd.
 
 
+### Clasificación de los triángulos en función de las longitudes de sus lados
+
+- Triángulo **equilátero**: aquel en el que sus tres lados tienen la misma longitud
+- Triángulo **isósceles**: el que tiene dos y solo dos lados de la misma longitud
+- Triángulo **escaleno**: el que tiene los tres lados de longitued distintas.
+
+
 ### Determinación del tipo de un triángulo en función de las longitudes de sus lados
 
 Los objetos de la clase `TipoTriangulo` enumeran los distintos
