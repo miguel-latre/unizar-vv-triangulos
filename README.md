@@ -13,7 +13,7 @@ _The Art of Software Testing_, 3rd Edition. John Wiley and Sons Ltd.
 
 - Triángulo **equilátero**: aquel en el que sus tres lados tienen la misma longitud
 - Triángulo **isósceles**: el que tiene dos y solo dos lados de la misma longitud
-- Triángulo **escaleno**: el que tiene los tres lados de longitued distintas.
+- Triángulo **escaleno**: el que tiene los tres lados de longitudes distintas.
 
 
 ### Determinación del tipo de un triángulo en función de las longitudes de sus lados
@@ -71,7 +71,7 @@ tipo del triángulo a través de un valor de la enumeración
 		assertEquals(TipoTriangulo.EQUILATERO, triangulo.tipo());
 	}
 	```
-11. Ejecútalo. Puedes optar por ejecutar solo este test pulsando en la flecha verde situdada a la izquierda de la
+11. Ejecútalo. Puedes optar por ejecutar solo este test pulsando en la flecha verde situada a la izquierda de la
     cabecera del método, o puedes ejecutar todos los tests de la clase pulsando en la doble flecha que aparece 
 	junto a la cabecera de la clase.
 	
