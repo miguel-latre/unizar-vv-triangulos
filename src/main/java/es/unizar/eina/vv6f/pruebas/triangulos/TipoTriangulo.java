@@ -6,31 +6,7 @@ package es.unizar.eina.vv6f.pruebas.triangulos;
  * lados.
  */
 public enum TipoTriangulo {
-	EQUILATERO("equilátero"),
-	ISOSCELES("isósceles"),
-	ESCALENO("escaleno");
-
-	/**
-	 * Nombre "visualizable" de este tipo de triángulo
-	 */
-	private final String nombre;
-
-	/**
-	 * Construye un objeto de este enum inicializando el nombre "visualizable"
-	 * del objeto
-	 *
-	 * @param nombre
-	 *            nombre "visualizable" de este tipo de triángulo
-	 */
-	TipoTriangulo(String nombre) {
-		this.nombre = nombre;
-	}
-
-	/**
-	 * Devuelve el nombre "visualizable" de este objeto enum
-	 */
-	@Override
-	public String toString() {
-		return nombre;
-	}
+	EQUILATERO,
+	ISOSCELES,
+	ESCALENO
 }
