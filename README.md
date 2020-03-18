@@ -100,3 +100,6 @@ tipo del triángulo a través de un valor de la enumeración
     cantidad de test implementados, puedes afrontar la reescritura del código de con relativa seguridad, puesto
     que si introdujeras algún defecto en el código, alguno o varios de los test que ya tienes escritos debería
     dejar de pasar.
+    
+16. Conforme vayas escribiendo código y tests, ve midiendo la cobertura del código utilizando la orden
+    `Run` → `Run with Coverage`, tal y como se explica en el vídeo correspondiente a la clase.
