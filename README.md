@@ -62,7 +62,7 @@ tipo del triángulo a través de un valor de la enumeración
     `Triangulo` (`es.unizar.eina.vv6f.pruebas.triangulos`), pero en directorios completamente separados del sistema
 	de ficheros.
 	
-10. Escribe el test correspondiente al primer caso de prueba de la tabla de la trasparencia 40: 
+10. Escribe el test correspondiente al primer caso de prueba de la tabla de la trasparencia 41: 
 
 	```java
     @Test
@@ -81,7 +81,7 @@ tipo del triángulo a través de un valor de la enumeración
     dadas en clase sobre TDD.
 
 14. Ve repitiendo este proceso de forma incremental con el resto de los casos de prueba de la tabla de la
-    transparencia 40:
+    transparencia 41:
 	- Escribe un nuevo test.
 	- Ejecútalo para comprobar que no pasa.
     - Escribe el código mínimo que haga que pase.
