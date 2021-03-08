@@ -31,9 +31,8 @@ tipo del triángulo a través de un valor de la enumeración
 ### Tareas
 
  1. Descargad el proyecto de Moodle o clonadlo desde GitHub.
- 2. Abridlo desde IntelliJ o Android Studio (a través del menú `Open`, no desde el de `Import project`).
- 2. El proyecto está configurado para utilizar el SDK de Java 8. Comprueba que el proyecto se puede compilar
-    (menú `Build` → `Build Project`). Si obtuvieras algún error, puedes cambiar el SDK asociado al proyecto en
+ 2. Abridlo desde IntelliJ o Android Studio (a través del menú `Open`, **no** desde el de `Import project`).
+ 2. El proyecto está configurado para utilizar el SDK de Java 8. Si obtuvieras algún error, puedes cambiar el SDK asociado al proyecto en
     `File` → `Project Structure...` → `Project Settings` → `Project` → `Project SDK`. 
  3. Observad la estructura del proyecto y, en particular, las clases `Triangulo`,`TipoTriangulo` y sus métodos.
  4. Para que los tests que escribamos con JUnit no se mezclen con el código fuente del proyecto,
@@ -49,12 +48,12 @@ tipo del triángulo a través de un valor de la enumeración
  
  8. Cread un primer test para el método `tipo` de la clase `Triangulo`. Para ello, podéis abrir la clase
     `Triangulo` y ejecutar `Navigate` → `Test` y elegir `Create New Test`. En la ventana que aparece a continuación
-	seleccionad `JUnit4` como `Testing library` y pulsad en el botón `Fix` que aparece debajo para que añada la
-	biblioteca de JUnit 4 al _classpath_ del proyecto.
+	seleccionad `JUnit5` como `Testing library` y pulsad en el botón `Fix` que aparece debajo para que añada la
+	biblioteca de JUnit 5 al _classpath_ del proyecto.
 	
 	![Diálogo de la creación del primer test](docs/create-test.png)
 	
-	![Descarga de JUnit 4 desde el repositorio de Maven](docs/downloading-junit4.png)
+	![Descarga de JUnit 5 desde el repositorio de Maven](docs/downloading-junit5.png)
 	
 	Marcad las cuatro casillas de debajo y podéis hacer clic en `OK` sin esperar a que la búsqueda termine en Maven.
 	
@@ -66,7 +65,7 @@ tipo del triángulo a través de un valor de la enumeración
 
 	```java
     @Test
-    public void comprobarTrianguloLados_3_3_3_esEquilatero() {
+    void comprobarTrianguloLados_3_3_3_esEquilatero() {
 		Triangulo triangulo = new Triangulo(3, 3, 3);
 		assertEquals(TipoTriangulo.EQUILATERO, triangulo.tipo());
 	}
