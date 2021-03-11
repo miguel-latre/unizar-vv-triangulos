@@ -80,7 +80,7 @@ tipo del triángulo a través de un valor de la enumeración
     dadas en clase sobre TDD.
 
 14. Ve repitiendo este proceso de forma incremental con el resto de los casos de prueba de la tabla de la
-    transparencia 41:
+    transparencia 44:
 	- Escribe un nuevo test.
 	- Ejecútalo para comprobar que no pasa.
     - Escribe el código mínimo que haga que pase.
