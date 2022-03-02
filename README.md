@@ -80,14 +80,14 @@ tipo del triángulo a través de un valor de la enumeración
     dadas en clase sobre TDD.
 
 14. Ve repitiendo este proceso de forma incremental con el resto de los casos de prueba de la tabla de la
-    transparencia 44:
+    transparencia 43:
 	- Escribe un nuevo test.
 	- Ejecútalo para comprobar que no pasa.
     - Escribe el código mínimo que haga que pase.
     - Reflexiona sobre la complejidad del código que tengas hasta el momento (ver el punto siguiente).
 
 	Es posible que cuando añadas un nuevo test este pase directamente. Puede deberse a:
-	- El diseño de las pruebas: hemos planteado un escenario de pruebas muy exhaustivo algunas son redundantes.
+	- El diseño de las pruebas: hemos planteado un escenario de pruebas muy exhaustivo y algunas son redundantes.
 	  No te preocupes por ello y sigue adelante. 
 	- Con algún test anterior, has escrito más código del estrictamente necesario para que ese test pasara. De
 	  nuevo, no te preocupes, pero procura no _correr_ tanto a la hora de implementar funcionalidad.
@@ -101,4 +101,4 @@ tipo del triángulo a través de un valor de la enumeración
     dejar de pasar.
     
 16. Conforme vayas escribiendo código y tests, ve midiendo la cobertura del código utilizando la orden
-    `Run` → `Run with Coverage`, tal y como se explica en el vídeo correspondiente a la clase.
+    `Run` → `Run with Coverage`, tal y como se explica en clase.
