@@ -32,7 +32,7 @@ tipo del triángulo a través de un valor de la enumeración
 
  1. Descargad el proyecto de Moodle o clonadlo desde GitHub.
  2. Abridlo desde IntelliJ o Android Studio (a través del menú `Open`, **no** desde el de `Import project`).
- 2. El proyecto está configurado para utilizar el SDK de Java 8. Si obtuvieras algún error, puedes cambiar el SDK asociado al proyecto en
+ 2. El proyecto está configurado para utilizar el SDK de Java 11. Si obtuvieras algún error, puedes cambiar el SDK asociado al proyecto en
     `File` → `Project Structure...` → `Project Settings` → `Project` → `Project SDK`. 
  3. Observad la estructura del proyecto y, en particular, las clases `Triangulo`,`TipoTriangulo` y sus métodos.
  4. Para que los tests que escribamos con JUnit no se mezclen con el código fuente del proyecto,
