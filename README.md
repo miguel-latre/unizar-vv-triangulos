@@ -32,7 +32,7 @@ tipo del triángulo a través de un valor de la enumeración
 
  1. Descargad el proyecto de Moodle o clonadlo desde GitHub.
  2. Abridlo desde IntelliJ o Android Studio (a través del menú `Open`, **no** desde el de `Import project`).
- 2. El proyecto está configurado para utilizar el SDK de Java 11. Si obtuvieras algún error, puedes cambiar el SDK asociado al proyecto en
+ 2. El proyecto está configurado para utilizar el SDK de Java 17. Si obtuvieras algún error, puedes cambiar el SDK asociado al proyecto en
     `File` → `Project Structure...` → `Project Settings` → `Project` → `Project SDK`. 
  3. Observad la estructura del proyecto y, en particular, las clases `Triangulo`,`TipoTriangulo` y sus métodos.
  4. Para que los tests que escribamos con JUnit no se mezclen con el código fuente del proyecto,
@@ -74,7 +74,7 @@ tipo del triángulo a través de un valor de la enumeración
     cabecera del método, o puedes ejecutar todos los tests de la clase pulsando en la doble flecha que aparece 
 	junto a la cabecera de la clase.
 	
-12. El test no pasará, puesto que de la clase `Triangulo` solo os he proporcionado el esqueleto.
+12. El test no pasará, puesto que de la clase `Triangulo` solo os hemos proporcionado el esqueleto.
 
 13. Escribe el código mínimo imprescindible en la clase `Triangulo` para que el test pase, siguiendo las explicaciones
     dadas en clase sobre TDD.
@@ -95,7 +95,7 @@ tipo del triángulo a través de un valor de la enumeración
 	
 15. Aunque el problema de determinar el tipo de un triángulo parece muy simple de resolver, en algún momento la
     cantidad de casos que estés contemplando en el código se disparará. Reflexiona sobre el código y piensa en
-    alguna manera de simplificarlo. Ha esto se le llama _refactorización_ y, dado que tendrás ya una buena
+    alguna manera de simplificarlo. A esto se le llama _refactorización_ y, dado que tendrás ya una buena
     cantidad de test implementados, puedes afrontar la reescritura del código de con relativa seguridad, puesto
     que si introdujeras algún defecto en el código, alguno o varios de los test que ya tienes escritos debería
     dejar de pasar.
